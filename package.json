@@ -1,0 +1,37 @@
+{
+  "author": "Aaron Kenney",
+  "name": "libphonenumber-i18n",
+  "description": "Google's phone number handling library ported to node.js",
+  "version": "0.0.9",
+  "main": "lib/index.js",
+  "directories" : {
+    "lib": "lib",
+    "test": "test"
+  },
+  "homepage": "https://github.com/CapitalReg/libphonenumber-i18n",
+  "keywords": [
+    "libphonenumber",
+    "phonenumber",
+    "phone",
+    "number",
+    "e164",
+    "standardize",
+    "international"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CapitalReg/libphonenumber-i18n"
+  },
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "dependencies": {
+    "closure": "1.0.3"
+  },
+  "devDependencies": {
+    "mocha": "1.x"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
